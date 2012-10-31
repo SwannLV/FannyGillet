@@ -1,0 +1,4 @@
+{"ts":1351702970355,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"<!DOCTYPE html>\n<html>\n    <head>\n        <title> Fanny Gillet</title>\n    </head>\n    <body>\n\n    </body>\n</html>\n"]],"start1":0,"start2":0,"length1":0,"length2":115}]],"length":115}
+{"contributors":[],"silentsave":true,"ts":1351703067541,"patch":[[{"diffs":[[0," <body>\n"],[1,"        "],[0,"\n    </b"]],"start1":86,"start2":86,"length1":16,"length2":24}]],"length":123,"saved":false}
+{"ts":1351703070334,"patch":[[{"diffs":[[0,"        "],[1,"Fanny"],[0,"\n    </b"]],"start1":94,"start2":94,"length1":16,"length2":21}]],"length":128,"saved":false}
+{"ts":1351703074061,"patch":[[{"diffs":[[0,"   Fanny"],[1," Gillet"],[0,"\n    </b"]],"start1":99,"start2":99,"length1":16,"length2":23}]],"length":135,"saved":false}
