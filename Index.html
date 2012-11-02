@@ -1,52 +1,57 @@
-
 <!DOCTYPE html>
 <html>
+    
     <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>
-        </title>
-        <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
-        <link rel="stylesheet" href="my.css" />
-        <style>
-            /* App custom styles */
-        </style>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js">
-        </script>
-        <script src="https://ajax.aspnetcdn.com/ajax/jquery.mobile/1.1.1/jquery.mobile-1.1.1.min.js">
-        </script>
-        <script src="my.js">
-        </script>
+        <title>Fanny Gillet's Business Card</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/app.js"></script>
+        <link rel="stylesheet" href="css/app.css" />
     </head>
+    
     <body>
-        <!-- Home -->
-        <div data-role="page" id="page1">
-            <div id="Header" data-theme="" data-role="header" data-position="fixed">
-                <h3>
-                    Fanny ... Gillet ?
-                </h3>
-            </div>
+        <div data-role="page" id="defaultpage">
             <div data-role="content">
-                <div style="">
-                    <img style="width: 50%; height: 50%" src="http://m.c.lnkd.licdn.com/media/p/1/000/0c2/049/10e3c29.jpg" />
+                <div id="intro">
+                    <a href="http://ca.linkedin.com/in/fannygillet/en">
+                        <img src="images/fg.jpg" alt="FannyGillet" id="photo-image"/>
+                    </a>
+                    <h1>Fanny Gillet - Communications Officer</h1>
+                    <p>682A College Street, M6G 1C1, Toronto</p>
+                    <p><b>Mobile: </b>416-876-2710</p>
+                    <p><b>Email: </b>fanny.gillet03@gmail.com</p>
+                    <br/>
                 </div>
-                <div data-role="collapsible-set" data-theme="a" data-content-theme="a">
-                    <div data-role="collapsible" data-collapsed="true">
-                        <h3>
-                            Toronto
-                        </h3>
-                        <img style="width: 100%; height: 100%" src="https://maps.googleapis.com/maps/api/staticmap?center=682A College street, toronto, ON&amp;zoom=14&amp;size=600x200&amp;markers=682A College street, toronto, ON&amp;sensor=false" />
-                    </div>
+                <div data-role="collapsible" id="highlights" data-theme="a" data-content-theme="c">
+                    <h3>What are my strengths?</h3>
+                    <p>&#9830; Master's Degree in Communications with 3 years of experience client and agency sides</p>
+                    <p>&#9830; Excellent knowledge of social media and online communications</p>
+                    <p>&#9830; Exceptional oral and written skills, both in French and English</p>
+                    <p>&#9830; Great communicator with excellent interpersonal skills</p>
+                    <p>&#9830; Proven track-record in multi-tasking with solid ability to manage time, prioritize activities and meet deadlines in a fast-paced environment</p>
+                    <p>&#9830; Detail-oriented with exemplary organizations skills capable of managing calendars and workflow</p>
+                    <p>&#9830; Resourceful team player who excels at bringing high-energy in projects and ensuring high results to clients</p>
+                    <p>&#9830; Computer literate performer with software proficiency including MS Word, Excel, PowerPoint, Paint and Adobe Acrobat professional</p>
                 </div>
-            </div>
-            <div data-theme="a" data-role="footer" data-position="fixed">
-                <h3>
-                    Fanny Gillet !
-                </h3>
+                <a href="#contact" data-role="button" data-transition="slide" data-theme="a">Contact me ... Now !</a>
             </div>
         </div>
-        <script>
-            //App custom javascript
-        </script>
+        
+        <div data-role="page" id="contact" data-add-back-btn="true">
+            <div data-role="header" data-position="fixed">
+                <h1>Fanny Gillet</h1>
+            </div>
+            <div data-role="content">
+                <div data-role="controlgroup">
+                    <a href="tel:+14168762710" data-role="button">with a PHONE Call</a>
+                    <a href="skype:fanaille25?call" data-role="button">with a SKYPE Call</a>
+                    <a href="mailto:fanny.gillet03@gmail.com" data-role="button">by EMAIL</a>
+                    <a href="http://ca.linkedin.com/in/fannygillet/en" data-role="button">throw my LINKEDIN Page</a>
+                </div>
+            </div>
+        </div>
     </body>
+
 </html>
