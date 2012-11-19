@@ -10,3 +10,6 @@ fu.get("/js/jquery.min.js", fu.staticHandler("js/jquery.min.js"));
 fu.get("/js/app.js", fu.staticHandler("js/app.js"));
 fu.get("/css/app.css", fu.staticHandler("css/app.css"));
 fu.get("/images/fg.jpg", fu.staticHandler("images/fg.jpg"));
+
+fu.get("/three.min.js", fu.staticHandler("three.min.js"));
+fu.get("/Site.html", fu.staticHandler("Site.html"));
